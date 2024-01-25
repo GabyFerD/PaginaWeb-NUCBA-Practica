@@ -37,3 +37,29 @@ body {
 a {
   color: var(--light-text);
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 5.8rem;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-menu {
+  display: none;
+}
+
+.btn-login {
+  border: 1px solid var(--white);
+  padding: 0.8rem 2.5rem;
+  border-radius: 10px;
+}
