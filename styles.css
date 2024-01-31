@@ -63,3 +63,14 @@ a {
   padding: 0.8rem 2.5rem;
   border-radius: 10px;
 }
+
+.btn-login:hover {
+  background: var(--primary);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+}
