@@ -42,35 +42,39 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  flex-wrap: wrap;
+  padding: 1rem;
+  z-index: 2;
 }
 
 .logo {
-  width: 5.8rem;
+  width: 90px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .menu {
   display: flex;
   gap: 30px;
+  order: 3;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  transform: translateX(200%);
+  transition: all 0.3s ease-in-out;
+  /* por el momento la animacion esta inactiva ya que se vera en js */
 }
 
-.btn-menu {
-  display: none;
+.menu li {
+  border-bottom: 1px solid var(--white);
 }
 
 .btn-login {
   border: 1px solid var(--white);
   padding: 0.8rem 2.5rem;
   border-radius: 10px;
-}
-
-.btn-login:hover {
-  background: var(--primary);
-  border: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu a:hover {
-  color: var(--primary);
-  transition: all 0.3s ease-in-out;
 }
