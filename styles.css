@@ -45,6 +45,7 @@ a {
   flex-wrap: wrap;
   padding: 1rem;
   z-index: 2;
+  position: relative;
 }
 
 .logo {
@@ -67,7 +68,17 @@ a {
   transform: translateX(200%);
   transition: all 0.3s ease-in-out;
   /* por el momento la animacion esta inactiva ya que se vera en js */
+
+  /* SE DAN LOS SIGUIENTES ATRIBUTOS PARA QUE EL MENU APAREZCA POR ENCIMA DEL MAIN */
+  position: absolute;
+  top: 5rem;
+  background-color: var(--dark-bg);
+  left: 0;
 }
+
+/* .show {
+  transform: translateX(0);
+} */
 
 .menu li {
   border-bottom: 1px solid var(--white);
