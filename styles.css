@@ -131,19 +131,23 @@ a {
 
 /* <!-- Section 2 => Product --> */
 
+.product,
+.product--text,
+.product-card-container,
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .product {
   max-width: 350px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
 .product--text {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   gap: 20px;
   margin-top: 6.9rem;
@@ -157,12 +161,6 @@ a {
 .product-img {
   width: 100%;
   margin-top: 1.3rem;
-}
-
-.product-card-container,
-.product-card {
-  display: flex;
-  flex-direction: column;
 }
 
 .product-card-container {
