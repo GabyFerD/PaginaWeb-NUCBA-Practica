@@ -181,19 +181,22 @@ a {
 
 /* <!-- Section 3 => About --> */
 
-.about {
-  padding: 6rem 0;
+.about,
+.about-text,
+.about-cards-container,
+.about-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about {
+  padding: 6rem 0;
   justify-content: center;
   gap: 50px;
 }
 
 .about-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 20px;
 }
 
@@ -203,17 +206,11 @@ a {
 }
 
 .about-cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 20px;
 }
 
 .about-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
   gap: 20px;
