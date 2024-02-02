@@ -207,5 +207,24 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  max-width: 330px;
+  background-color: var(--white);
+  color: var(--first-text);
+  border-radius: 10px;
+  padding: 3rem 2rem;
+}
+
+.img-about-2 {
+  margin-top: -20px;
+  margin-bottom: -35px;
 }
