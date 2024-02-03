@@ -227,3 +227,43 @@ a {
 
 /* <!-- Section 4 => 
     testimonials --> */
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.testimonials h3 {
+  font-size: 2rem;
+  font-weight: var(--medium);
+}
+
+.testimonials-card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.testimonials-card:first-of-type {
+  margin-top: -10px;
+}
+
+.testimonials-card-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.testimonials-card-title h3 {
+  font-weight: var(--bold);
+  font-size: 1.17rem;
+}
