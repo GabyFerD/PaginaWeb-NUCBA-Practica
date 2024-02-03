@@ -1,18 +1,38 @@
 /* desktop */
 
-/* .btn-menu {
+/* <!-- Navbar --> */
+
+.btn-menu {
   display: none;
 }
 
-
+.btn-login {
+  transition: all 0.3s ease-in-out;
+}
 
 .btn-login:hover {
   background: var(--primary);
   border: none;
-  transition: all 0.3s ease-in-out;
 }
 
+.menu {
+  transform: translateX(0);
+  flex-direction: row;
+  order: 0;
+  position: static;
+  width: fit-content;
+}
+
+.menu li {
+  border-bottom: none;
+}
 .menu a:hover {
   color: var(--primary);
   transition: all 0.3s ease-in-out;
-} */
+}
+
+.btn-container {
+  gap: 0;
+}
+
+/* <!-- Section 1 => Hero --> */
