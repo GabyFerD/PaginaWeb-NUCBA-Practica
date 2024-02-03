@@ -1,38 +1,76 @@
 /* desktop */
 
 /* <!-- Navbar --> */
+@media (min-width: 1000px) {
+  .btn-menu {
+    display: none;
+  }
 
-.btn-menu {
-  display: none;
-}
+  .btn-login {
+    transition: all 0.3s ease-in-out;
+  }
 
-.btn-login {
-  transition: all 0.3s ease-in-out;
-}
+  .btn-login:hover {
+    background: var(--primary);
+    border: none;
+  }
 
-.btn-login:hover {
-  background: var(--primary);
-  border: none;
-}
+  .menu {
+    transform: translateX(0);
+    flex-direction: row;
+    order: 0;
+    position: static;
+    width: fit-content;
+  }
 
-.menu {
-  transform: translateX(0);
-  flex-direction: row;
-  order: 0;
-  position: static;
-  width: fit-content;
-}
+  .menu li {
+    border-bottom: none;
+  }
+  .menu a:hover {
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+  }
 
-.menu li {
-  border-bottom: none;
-}
-.menu a:hover {
-  color: var(--primary);
-  transition: all 0.3s ease-in-out;
-}
+  .btn-container {
+    gap: 0;
+  }
 
-.btn-container {
-  gap: 0;
-}
+  /* <!-- Section 1 => Hero --> */
+  .hero-text {
+    max-width: 70%;
+    gap: 40px;
+  }
 
-/* <!-- Section 1 => Hero --> */
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    width: 80%;
+  }
+
+  .hero-bg {
+    max-width: 92%;
+  }
+
+  /* <!-- Section 2 => Product --> */
+
+  .product {
+    max-width: 1000px;
+  }
+
+  .product--text p {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .product-img {
+    width: 100%;
+  }
+
+  .product-img-cards-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}
