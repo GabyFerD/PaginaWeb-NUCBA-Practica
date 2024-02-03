@@ -73,4 +73,12 @@
     align-items: center;
     gap: 50px;
   }
+
+  /* <!-- Section 3 => About --> */
+
+  .about-cards-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
 }
