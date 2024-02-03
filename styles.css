@@ -227,11 +227,15 @@ a {
 
 /* <!-- Section 4 => testimonials --> */
 
-.testimonials {
+.testimonials,
+.testimonials-card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+}
+
+.testimonials {
+  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
 }
@@ -243,9 +247,6 @@ a {
 
 .testimonials-card {
   max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   border: 1px solid var(--gray);
   border-radius: 10px;
   gap: 20px;
@@ -294,20 +295,19 @@ a {
 
 /* <!-- Footer --> */
 
-footer {
+footer,
+.footer-containers {
   display: flex;
   flex-direction: column;
+}
+
+footer {
   max-width: fit-content;
   /* Esta propiedad sirve para que el contenedor se ajuste al contenido */
   margin: 0 auto;
   /* al estar eñ max-width, esto sirve para linear al centro */
   gap: 20px;
   padding: 3rem 0;
-}
-
-.footer-containers {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-redes {
