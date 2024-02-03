@@ -82,8 +82,7 @@
     align-items: stretch;
   }
 
-  /* <!-- Section 4 => 
-    testimonials --> */
+  /* <!-- Section 4 => Testimonials --> */
 
   .testimonials {
     max-width: 1000px;
@@ -97,5 +96,25 @@
 
   .testimonials-card:first-of-type {
     margin-top: 0;
+  }
+
+  /* <!-- Section 5 => CTA --> */
+
+  .img-cta {
+    display: block;
+  }
+
+  .cta-container {
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #343434;
+    border-radius: 30px;
+    padding: 0 10px;
+  }
+
+  .cta-text {
+    align-items: start;
   }
 }
