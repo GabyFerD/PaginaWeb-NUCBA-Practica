@@ -293,3 +293,24 @@ a {
 }
 
 /* <!-- Footer --> */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  /* Esta propiedad sirve para que el contenedor se ajuste al contenido */
+  margin: 0 auto;
+  /* al estar eñ max-width, esto sirve para linear al centro */
+  gap: 20px;
+  padding: 3rem 0;
+}
+
+.footer-containers {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 20px;
+}
