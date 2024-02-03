@@ -225,8 +225,7 @@ a {
   margin-bottom: -35px;
 }
 
-/* <!-- Section 4 => 
-    testimonials --> */
+/* <!-- Section 4 => testimonials --> */
 
 .testimonials {
   display: flex;
@@ -266,4 +265,29 @@ a {
 .testimonials-card-title h3 {
   font-weight: var(--bold);
   font-size: 1.17rem;
+}
+
+/* <!-- Section 5 => CTA --> */
+
+.img-cta {
+  display: none;
+}
+
+.cta {
+  padding: 4rem 0;
+  background-color: var(--secondary-bg);
+  margin-top: 3rem;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cta-container h3 {
+  font-size: 2rem;
+  font-weight: var(--light);
 }
