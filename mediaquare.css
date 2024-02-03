@@ -81,4 +81,21 @@
     justify-content: center;
     align-items: stretch;
   }
+
+  /* <!-- Section 4 => 
+    testimonials --> */
+
+  .testimonials {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .testimonials-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .testimonials-card:first-of-type {
+    margin-top: 0;
+  }
 }
