@@ -124,17 +124,16 @@
     max-width: 1000px;
     flex-direction: row;
     gap: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     justify-content: center;
-  }
-
-  .footer-containers ul {
-    padding-top: 10px 0;
   }
 
   .footer-containers h3 {
     font-size: 1rem;
     border-bottom: 1px solid var(--white);
     padding: 10px 0;
+  }
+  .footer-containers ul {
+    margin-top: 10px;
   }
 }
